@@ -1,0 +1,47 @@
+
+
+nav{
+    background-color:gray;
+    margin-top: 0px;
+    height: 150px;
+ }
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+  nav h1{
+    text-align: center;
+    color: white;
+  }
+  #div2 button{
+     margin-left: 180px;
+     margin-top: 20px;
+     padding: 8px;
+     border-radius: 5px;
+     border: 0px;
+  }
+   #div2 input {
+    margin-left: 250px;
+    margin-right: 200px;
+    width: 500px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0px;
+  }
+  select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+  }
+  #div2 button:hover{
+    background-color:lightgrey;
+  }
+  .task-container{
+    
+    padding:100px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  

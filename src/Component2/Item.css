@@ -1,0 +1,65 @@
+
+
+#main-container{
+    height:150px ;
+    width: 200px;
+    box-shadow:  3px 3px 3px 3px gray;
+    border: 0px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+#main-container button{
+        margin: 10px;
+        padding: 2px;
+        width: 100px;
+        border: 0px;
+        color: black;
+        border-radius: 5px;
+}
+/* 
+#main-container p{
+    padding:10px 0px 0px 10px;
+} */
+
+.delete {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size:25px;
+}
+.edit{
+    
+    margin-top: 10px;
+    font-size:25px;
+}
+.delete:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.edit:hover{
+    color:yellowgreen;
+    cursor: pointer;
+}
+
+#course {
+    color: gray;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    margin: 10px;
+    
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+#status{
+    padding-top: 30px;
+    padding-left: 5px;
+}
