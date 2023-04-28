@@ -6,3 +6,10 @@ form input{
     width: 250px;
 
 }
+#ci{
+    
+    margin: 0px 0px 10px 5px;
+    border-radius: 5px;
+    padding:5px ;
+    width: 250px;
+}

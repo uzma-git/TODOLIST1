@@ -2,12 +2,13 @@
 
 #main-container{
     height:150px ;
-    width: 200px;
+    width: 500px;
     box-shadow:  3px 3px 3px 3px gray;
     border: 0px;
-    background-color: gainsboro;
+    background-color:lightblue;
     border-radius: 5px;
     margin: 30px;
+    margin-left: 400px;
     display: flex;
     flex-direction: column;
 
@@ -22,6 +23,7 @@
         border: 0px;
         color: black;
         border-radius: 5px;
+        
 }
 /* 
 #main-container p{
@@ -29,14 +31,14 @@
 } */
 
 .delete {
-    margin-left: 150px;
-    margin-top: 10px;
-    font-size:25px;
+    margin-left: 400px;
+    /* margin-top: 10px; */
+    font-size:xx-large;
 }
 .edit{
     
-    margin-top: 10px;
-    font-size:25px;
+    /* margin-top: 10px; */
+    font-size:xx-large;
 }
 .delete:hover{
     color: red;
@@ -48,18 +50,26 @@
     cursor: pointer;
 }
 
-#course {
-    color: gray;
-    width: 100px;
-    height: 30px;
-    border-radius: 2px;
-    margin: 10px;
+.check{
+    font-size:x-large;
+    color: green;
     
-    text-align: center;
-    box-shadow: 1px 1px 1px 1px gray;
+}
+
+#course {
+    
+    width: 500px;
+    height: 80px;
+   text-align: center;
+   background-color:aqua;
+    border: 0px;
+    
 }
 
 #status{
-    padding-top: 30px;
-    padding-left: 5px;
+    
+    padding-left: 190px;
+}
+.Created{
+    margin-left: 150px;
 }

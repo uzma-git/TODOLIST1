@@ -28,8 +28,12 @@ let handleSave=()=>{
         <form className='frm'>
           <label>Task</label>
           <input type='text' value={taskName} onChange={handleChange} name="taskName"></input>
-          <label>Status</label>
-          <input type='text' value={status} onChange={handleChange} name="status"></input>
+          <p>Status</p>
+          <select id='ci'  onChange={handleChange}>
+            <option value="inProgress">inProgress</option>
+            <option value="Complete">Complete</option>
+            <option value="inComplete">inComplete</option>
+          </select>
         </form>
       </ModalBody>
       <ModalFooter>
